@@ -1,0 +1,20 @@
+---
+layout: default
+---
+ 
+<div class="home">
+
+  <h1 class="page-heading">Mendix 'Best Practices'</h1>
+  
+  {{ content }}
+ 
+  <ul class="post-list">
+    {% for best_practice in site.best_practices %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ best_practice.url | relative_url }}">{{ best_practice.rulenumber | escape }}. {{ best_practice.title | escape }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul> 
+</div>

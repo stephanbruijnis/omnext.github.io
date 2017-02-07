@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Omnext
+email: contact@omnext.com
+description: > # this means to ignore newlines until "baseurl:"
+  Wilt u weten hoe fit uw Mendix applicatie is? Of u klaar bent voor de toekomst en of uw software veilig is? Onze oplossing is onze broncode analyse: de Omnext Fit Test. We voeren deze uit en de resultaten blijven een jaar lang beschikbaar. U kunt ook kiezen voor de Fit test Plus, dan ontvang u aanvullend een onafhankelijke expert review door een van onze specialisten. We meten de verschillende gebieden: Onderhoudbaarheid, Veiligheid, Performance en Conventies. Allen gebaseerd op Standards and Guidelines welke opgesteld zijn door de meest ervaren Mendix ontwikkelaars. Automatisch en  geïntegreerd in de broncode analyse.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://omnext.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: omnext
+github_username:  omnext
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
+collections:
+  best_practices:
+    output: true
+    permalink: /:collection/:path/:title:output_ext
+
+defaults:
+  - scope:
+      type: best_practices
+    values:
+      layout: post
