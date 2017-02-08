@@ -4,17 +4,11 @@ layout: default
  
 <div class="home">
 
-  <h1 class="page-heading">Mendix 'Best Practices'</h1>
+  <h1 class="page-heading">Fit Test 4 Mendix - Best Practices</h1>
   
-  {{ content }}
+	<p>This Github repository is to open source the Mendix best practices used by Omnext to check your Mendix model. You can fork this repository, make changes, add new rules and then create a pull request. You can also add issues.</p>
  
-  <ul class="post-list">
-    {% for best_practice in site.best_practices %}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ best_practice.url | relative_url }}">{{ best_practice.rulenumber | escape }}. {{ best_practice.title | escape }}</a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul> 
+	{% for best_practice in site.best_practices %}
+		 <p style="display: inline-flex;"> <a class="post-link" href="{{ best_practice.url | relative_url }}">{{ best_practice.rulenumber | escape }}. {{ best_practice.title | escape }}</a>&nbsp;&nbsp;&nbsp;<a class="icon icon--github" href="https://github.com/Omnext/omnext.github.io/blob/master/{{ best_practice.path | escape }}">{% include icon-github.svg %}</a></p>
+	{% endfor %}
 </div>

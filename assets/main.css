@@ -1,5 +1,5 @@
 /**
- * Reset some basic elements
+ * Reset some basic elements 
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -268,7 +268,7 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 0px; }
 
 .post-meta {
   font-size: 14px;
@@ -276,6 +276,7 @@ pre {
 
 .post-link {
   display: block;
+}
 
 /**
  * Posts
@@ -284,7 +285,7 @@ pre {
   margin-bottom: 30px; }
 
 .post-title {
-  font-size: 42px;
+  font-size: 20px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {

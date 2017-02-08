@@ -13,10 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Omnext
+title: Fit Test 4 Mendix - Best Practices
 email: contact@omnext.com
 description: > # this means to ignore newlines until "baseurl:"
-  Wilt u weten hoe fit uw Mendix applicatie is? Of u klaar bent voor de toekomst en of uw software veilig is? Onze oplossing is onze broncode analyse: de Omnext Fit Test. We voeren deze uit en de resultaten blijven een jaar lang beschikbaar. U kunt ook kiezen voor de Fit test Plus, dan ontvang u aanvullend een onafhankelijke expert review door een van onze specialisten. We meten de verschillende gebieden: Onderhoudbaarheid, Veiligheid, Performance en Conventies. Allen gebaseerd op Standards and Guidelines welke opgesteld zijn door de meest ervaren Mendix ontwikkelaars. Automatisch en  geïntegreerd in de broncode analyse.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://omnext.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: omnext
