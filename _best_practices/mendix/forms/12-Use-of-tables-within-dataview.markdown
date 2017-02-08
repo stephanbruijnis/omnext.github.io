@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "Avoid using tables since they are not responsive by character. For conditional formatting use containers"
+title:  "Use of tables within dataview"
 categories: forms
 prio: 5
 rulenumber: 12
