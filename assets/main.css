@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 15px; }
+  margin-bottom: 15px; } 
 
 /**
  * Images
@@ -112,7 +112,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: -webkit-calc(900px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
@@ -276,6 +276,7 @@ pre {
 
 .post-link {
   display: block;
+  font-size:17px; 
 }
 
 /**

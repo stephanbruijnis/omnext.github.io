@@ -7,8 +7,11 @@ layout: default
   <h1 class="page-heading">Fit Test 4 Mendix - Best Practices</h1>
   
 	<p>This Github repository is to open source the Mendix best practices used by Omnext to check your Mendix model. You can fork this repository, make changes, add new rules and then create a pull request. You can also add issues.</p>
- 
-	{% for best_practice in site.best_practices %}
-		 <p style="display: inline-flex;"> <a class="post-link" href="{{ best_practice.url | relative_url }}">{{ best_practice.rulenumber | escape }}. {{ best_practice.title | escape }}</a>&nbsp;&nbsp;&nbsp;<a class="icon icon--github" href="https://github.com/Omnext/omnext.github.io/blob/master/{{ best_practice.path | escape }}">{% include icon-github.svg %}</a></p>
+	
+	<ul>
+	{% assign sorted = (site.best_practices | sort: 'rulenumber') %}
+    {% for best_practice in sorted %}
+		 <li style="display: flex;"> <a class="post-link" href="{{ best_practice.url | relative_url }}">{{ best_practice.rulenumber | escape }}. {{ best_practice.categories | escape }} - {{ best_practice.title | escape }}</a>&nbsp;&nbsp;&nbsp;<a class="icon icon--github" href="https://github.com/Omnext/omnext.github.io/blob/master/{{ best_practice.path | escape }}" target="_blank">{% include icon-github.svg %}</a></li>
 	{% endfor %}
+	</ul>
 </div>
