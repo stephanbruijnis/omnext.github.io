@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "No more than 15 persistent entities within one domain moel"
+title:  "No more than 15 persistent entities within one domain model"
 categories: Datamodel
 prio: 3
 rulenumber: 1
