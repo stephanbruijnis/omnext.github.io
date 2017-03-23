@@ -13,7 +13,7 @@ ruleset: Reuseability
 **Why**
 Module x is strongly dependent of module y. This will make it harder to reuse this module.
 
-![9.png]({{ site.url }}/assets/9.png)
+![9.png](https://github.com/Omnext/omnext.github.io/blob/master/assets/9.png)
 
 **How to fix**
 Consider to combine the modules or create a façade within module y.
