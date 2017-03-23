@@ -13,7 +13,7 @@ ruleset: Convention
 **Why**
 Using different layout grid column structures will decrease application uniformity and therefor will decrease user experience.
 
-![18.png]({{ site.url }}/assets/18.png)
+![18.png](https://github.com/Omnext/omnext.github.io/blob/master/assets/18.png)
 
 **How to fix**
 Please change the layout grid columns to 2;4;2;4 accoding to the conventions

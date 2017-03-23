@@ -13,7 +13,7 @@ ruleset: Convention
 **Why**
 For each entity there should be a folder to put the documents in.
 
-![33.png]({{ site.url }}/assets/33.png)
+![33.png](https://github.com/Omnext/omnext.github.io/blob/master/assets/33.png)
 
 **How to fix**
 Create a folder per persistent entity
