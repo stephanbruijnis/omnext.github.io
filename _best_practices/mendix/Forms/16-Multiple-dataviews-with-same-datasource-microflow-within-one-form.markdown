@@ -13,7 +13,7 @@ ruleset: Performance
 **Why**
 This will result in unnecessary call from your form to the Mendix Runtime. This will slow down the page loading.
 
-![16.png](https://github.com/Omnext/omnext.github.io/blob/master/assets/16.png)
+![16.png]({{ site.url }}/assets/16.png)
 
 **How to fix**
 Restructure the form to avoid calling multiple times the same microflow

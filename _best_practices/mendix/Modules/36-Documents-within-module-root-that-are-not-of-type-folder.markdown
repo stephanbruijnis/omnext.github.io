@@ -13,6 +13,6 @@ ruleset: Convention
 **Why**
 According to the conventions documents should always be nested within folders
 
-![36.png](https://github.com/Omnext/omnext.github.io/blob/master/assets/36.png)
+![36.png]({{ site.url }}/assets/36.png)
 
 **How to fix**

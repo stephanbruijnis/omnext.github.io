@@ -13,7 +13,7 @@ ruleset: Security
 **Why**
 Avoid creating filedocument or images. Because your security options on both objects are very limited
 
-![22.png](https://github.com/Omnext/omnext.github.io/blob/master/assets/22.png)
+![22.png]({{ site.url }}/assets/22.png)
 
 **How to fix**
 Inherit always from system domain objects before using them. In that way you can configure your own security
