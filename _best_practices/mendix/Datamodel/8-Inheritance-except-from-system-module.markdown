@@ -13,7 +13,7 @@ ruleset: Performance
 **Why**
 Inheritance, except from system module, is strongly discouraged because of the negative performance side effects.
 
-![8.png](https://github.com/Omnext/omnext.github.io/blob/master/assets/8.png)
+![8.png]({{ site.url }}/assets/8.png)
 
 **How to fix**
 Instead of inheritance just use seperate objects which are associated to the main object of as an alternative you can add the child’s attributes to the super entity and add an ObjectType enumeration.
