@@ -13,7 +13,7 @@ ruleset: Convention
 **Why**
 An association name must have the following format: <owner>_<child>[_<description>]
 
-![6.png](https://github.com/Omnext/omnext.github.io/blob/master/assets/6.png)
+![6.png]({{ site.url }}/assets/6.png)
 
 **How to fix**
 Rename the association so it always include the parent and child domain names. This will make it a lot easer to auto complete association names within microflows and to use it in modules such as Reporting for Mendix and Model Reflection.
