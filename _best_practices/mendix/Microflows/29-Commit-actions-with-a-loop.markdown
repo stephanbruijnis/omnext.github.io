@@ -11,9 +11,9 @@ ruleset: Performance
 ---
 
 **Why**
-Commiting objects within a loop will fire a SQL Update query for each iteration.  This will decrease performance.
+Commiting objects within a loop will fire a SQL Update query for each iteration. This will decrease performance.
 
 ![29.png]({{ site.url }}/assets/29.png)
 
 **How to fix**
-Consider to commit the objects outside the loop. Therefor you have to add it to a list within the loop.
+Consider committing objects outside the loop. Within the loop, add them to a list.

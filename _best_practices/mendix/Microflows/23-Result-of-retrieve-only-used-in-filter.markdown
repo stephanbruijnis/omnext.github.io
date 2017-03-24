@@ -11,7 +11,7 @@ ruleset: Performance
 ---
 
 **Why**
-A filter is used on a retrieve action but the list is not used again. This can be a performance killer because Mendix is retrieving all your objects in memory because the filter is modeled a a seperate action.
+A filter is used on a retrieve action but the list is not used again. This can be a performance killer because Mendix is retrieving all your objects in memory because the filter is modeled a a separate action.
 
 ![23.png]({{ site.url }}/assets/23.png)
 

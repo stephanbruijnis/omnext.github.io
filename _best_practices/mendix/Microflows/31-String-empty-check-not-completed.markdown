@@ -11,7 +11,7 @@ ruleset: Error
 ---
 
 **Why**
-Technically there is a difference between empty and "". Make sure to check them both.
+Technically, there is a difference between empty and "". Make sure to check them both.
 
 ![31.png]({{ site.url }}/assets/31.png)
 

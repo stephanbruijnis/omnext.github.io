@@ -11,7 +11,7 @@ ruleset: Error
 ---
 
 **Why**
-Before and after commit actions that commits the object it self with event. The result is an infinity loop in the microflow
+Before and after commit actions should not commit the object itself with an event. The result is an infinite loop in the microflow.
 
 ![10.png]({{ site.url }}/assets/10.png)
 

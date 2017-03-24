@@ -11,7 +11,7 @@ ruleset: Maintainability
 ---
 
 **Why**
-You are using a layout which isn't allowed by the convention. This will make it harder for your UI designer to design the layouts.
+Avoid using a layout that isn't allowed by the convention. This will make it harder for your UI designer to design the layouts.
 
 **How to fix**
 Use one of the convention layouts appointed by your QA.

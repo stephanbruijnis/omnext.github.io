@@ -11,9 +11,9 @@ ruleset: Maintainability
 ---
 
 **Why**
-Big microflows will result in big code units. This will have a negative impact on ISO Maintainability score because the microflow are harder to analyze and to maintain.
+Big microflows will result in big code units. This will have a negative impact on an ISO Maintainability score because the microflow is harder to analyze and maintain.
 
 ![27.png]({{ site.url }}/assets/27.png)
 
 **How to fix**
-Please divide microflow x into parts
+Divide the microflow into x parts.

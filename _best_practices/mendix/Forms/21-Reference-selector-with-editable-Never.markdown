@@ -11,9 +11,9 @@ ruleset: Performance
 ---
 
 **Why**
-In certain versions of Mendix a read only reference selector will try to load the the object list as well. This affects performance in a negative way.
+In certain versions of Mendix a read-only reference selector will try to load the object list as well. This affects performance in a negative way.
 
 ![21.png]({{ site.url }}/assets/21.png)
 
 **How to fix**
-Use a text box instead set to read only.
+Use a text box instead, set to read-only.
