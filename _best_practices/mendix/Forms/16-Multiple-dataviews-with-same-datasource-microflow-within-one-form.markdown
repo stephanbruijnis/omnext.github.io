@@ -11,9 +11,9 @@ ruleset: Performance
 ---
 
 **Why**
-This will result in unnecessary call from your form to the Mendix Runtime. This will slow down the page loading.
+Avoid unnecessary calls from your form to the Mendix Runtime. This will slow down page loading.
 
 ![16.png]({{ site.url }}/assets/16.png)
 
 **How to fix**
-Restructure the form to avoid calling multiple times the same microflow
+Restructure the form to avoid calling multiple times the same microflow.

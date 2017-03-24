@@ -11,7 +11,7 @@ ruleset: Maintainability
 ---
 
 **Why**
-The bigger entities the slower your application will become when handling the data. This is because Mendix is using SELECT * queries a lot and will retrieve a lot of unnesseracy data
+The bigger the entities, the slower your application will become when handling the data. This is because Mendix is using SELECT * queries a lot and will retrieve a lot of unnecessary data.
 
 ![2.png]({{ site.url }}/assets/2.png)
 

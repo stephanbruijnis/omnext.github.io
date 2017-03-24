@@ -11,8 +11,9 @@ ruleset: Convention
 ---
 
 **Why**
-According to the conventions documents should always be nested within folders
+According to the conventions, documents should always be nested within folders.
 
 ![36.png]({{ site.url }}/assets/36.png)
 
 **How to fix**
+...

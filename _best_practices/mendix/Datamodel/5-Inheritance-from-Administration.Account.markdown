@@ -16,4 +16,4 @@ There is no need to inherit from administration.account. Administration.account 
 ![5.png]({{ site.url }}/assets/5.png)
 
 **How to fix**
-Just inherit from system.user instead or adapt Administration.Account so it fit your needs.
+Just inherit from system.user instead or adapt Administration.Account so it fits your needs.

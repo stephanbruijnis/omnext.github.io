@@ -16,4 +16,4 @@ Generate Document is an outdated feature. Document templates created with the de
 ![30.png]({{ site.url }}/assets/30.png)
 
 **How to fix**
-Consider to use the Word Merge For Mendix module, the most powerfull solution for document generation with Mendix.
+Consider using the Word Merge For Mendix module, the most powerfull solution for document generation with Mendix.

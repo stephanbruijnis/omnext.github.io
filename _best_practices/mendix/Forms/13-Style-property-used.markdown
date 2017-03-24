@@ -11,7 +11,7 @@ ruleset: Maintainability
 ---
 
 **Why**
-Try to avoid using the style property because this will make the life of your UI designer a lot more complicated as it will be harder to overrule there styles from CSS file level.
+Avoid using the style property, because this will make the life of your UI designer a lot more complicated. It will be harder to overrule styles from CSS file level.
 
 **How to fix**
-Use generic classes instead with are defined by the theme
+Use generic classes instead, defined by the theme.
