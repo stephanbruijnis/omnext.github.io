@@ -11,8 +11,9 @@ ruleset:
 ---
 
 **Why**
-Als een microflow (bijv. onchange) aangeroepen wordt in een dataview, gebruik dan geen opslaan actie. De gebruiker wil zijn acties kunnen annuleren door op de ‘Cancel / annuleer’ knop te klikken.
+When a microflow (e.g. OnChange) is called from a dataview, don't use a Commit activity. The user needs to be able to cancel by clicking the Cancel button.
 
 ![51.png]({{ site.url }}/assets/51.png)
 
 **How to fix**
+Remove any Commit activities from microflows that are called from dataviews.

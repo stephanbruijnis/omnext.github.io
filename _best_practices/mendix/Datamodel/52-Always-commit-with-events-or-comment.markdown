@@ -11,8 +11,9 @@ ruleset:
 ---
 
 **Why**
-Gebruik in principe altijd commit with events. Als er zonder events gecommit wordt dan altijd commentaar op het blokje aangeven waarom de events worden gemeden en hoe integriteit gewaarborgd wordt. Een goede reden voor het niet uitvoeren van events kan in performance liggen maar er moet dan een alternatief geïmplementeerd zijn in de betreffende flow.
+In principle, always commit with events. When it's necessary to commit without events, always add a comment explaining why events are avoided, and how integrity is guaranteed. A valid reason for not executing events can be performance. But an alternative must be implemented in the applicable flow. 
 
 ![52.png]({{ site.url }}/assets/52.png)
 
 **How to fix**
+In the Commit activity, select YES for "With events". In case of a valid reason for NO, add an annotation to the flow, elaborating the alternative for data integrity. 
