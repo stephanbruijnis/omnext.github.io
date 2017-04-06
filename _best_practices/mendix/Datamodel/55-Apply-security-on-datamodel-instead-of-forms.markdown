@@ -11,7 +11,7 @@ ruleset:
 ---
 
 **Why**
-Op ieder object moet security ingesteld zijn. Stel security in op het datamodel en nooit op de user interface.
+Security must be configured on every entity. Set security on the domein model, and never on user interfaces.
 
 ![55.png]({{ site.url }}/assets/55.png)
 

@@ -11,8 +11,9 @@ ruleset:
 ---
 
 **Why**
-Overerf altijd voor filedocument of images. Nooit direct referenties leggen naar het system model omdat security daar maar beperkt voor ingesteld kan worden.
+Always inherit for filedocuments and images. Never implement direct assocations to the System Domain Model, because of limits on the configuration of security.
 
 ![42.png]({{ site.url }}/assets/42.png)
 
 **How to fix**
+Remove direct associations with the System Domain Model. Use inheritance instead (i.e. Generalization in the entity properties).

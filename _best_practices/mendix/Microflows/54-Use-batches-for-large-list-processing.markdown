@@ -11,7 +11,7 @@ ruleset:
 ---
 
 **Why**
-Overweeg het gebruik van batches als er in één microflow veel objecten worden opgeslagen. Dat kan door de objecten toe te voegen aan een lijst en aan het einde van de microflow in één keer de lijst te committen. Mendix zal dat dan optimaliseren. Afhankelijk van welke functionaliteiten er uitgevoerd moeten worden, is het een best practice om met lijsten van 2.000 tot maximaal 10.000 objecten te werken. Hoe zwaarder de actie die uitgevoerd wordt, hoe lager het maximum. Hieronder wordt een voorbeeld getoond hoe dit kan worden toegepast.
+Consider using batches when many objects are committed in one microflow. This can be done by adding objects to a list, and committing the list at the end of the microflow. Mendix will then optimize this. Depending on the executed functionality, it is best practice to work with lists of 2.000 to 10.000 objects maximum. The heavier the action being executed, the lower the maximum. Below is an example on how this can be implemented. 
 
 ![54.png]({{ site.url }}/assets/54.png)
 

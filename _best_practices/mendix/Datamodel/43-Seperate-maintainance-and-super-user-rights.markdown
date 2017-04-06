@@ -11,7 +11,7 @@ ruleset:
 ---
 
 **Why**
-Maak altijd een beheerderaccount naast MxAdmin. De rol MxAdmin is echt alleen voor Appronto.
+Always implement a separate Administrator account next to MxAdmin. The MxAdmin account is only for the App Development Company. 
 
 ![43.png]({{ site.url }}/assets/43.png)
 
