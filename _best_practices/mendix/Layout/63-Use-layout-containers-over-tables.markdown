@@ -1,18 +1,19 @@
 ---
 
 layout: post
-title:  "Use layout containers over tables"
+title:  "Use layout grids over tables"
 categories: Layout
-prio: 
+prio:
 rulenumber: 63
-rulename: 
-ruleset: 
+rulename:
+ruleset:
 
 ---
 
 **Why**
-null
+A Layoutgrid renders better html and can be styled better.
 
 ![63.png]({{ site.url }}/assets/63.png)
 
 **How to fix**
+Replace tables by layoutgrids.

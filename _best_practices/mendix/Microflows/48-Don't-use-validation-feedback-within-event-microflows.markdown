@@ -3,16 +3,15 @@
 layout: post
 title:  "Don't use validation feedback within event microflows"
 categories: Microflows
-prio: 
+prio:
 rulenumber: 48
-rulename: 
-ruleset: 
+rulename:
+ruleset:
 
 ---
 
 **Why**
-Server side valideren gebeurt niet in events maar in microflows die als custom save buttons op views worden gezet. Gebruik subflows indien validaties herbruikbaar moeten zijn.
-
-![48.png]({{ site.url }}/assets/48.png)
+Don't use feedback activities in Event microflows (after create/after commit etc.)
 
 **How to fix**
+Use separate submicroflows and execute them in your microflows triggered by a user action
