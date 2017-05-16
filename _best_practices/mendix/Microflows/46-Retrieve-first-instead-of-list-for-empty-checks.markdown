@@ -3,16 +3,17 @@
 layout: post
 title:  "Retrieve first instead of list for empty checks"
 categories: Microflows
-prio: 
+prio:
 rulenumber: 46
-rulename: 
-ruleset: 
+rulename:
+ruleset:
 
 ---
 
 **Why**
-Gebruik retrieve first in microflows als het doel enkel is om te checken of een object aanwezig is. Veel gemaakte fout is om een lijst te retrieven en dan de lijst op != empty te checken
+The use of retrieve action to check if an object exists should always retrieve only the first record instead of the whole list.
 
 ![46.png]({{ site.url }}/assets/46.png)
 
 **How to fix**
+If the retrieve of the objects is followed by a test if the object != empty then set the retrieve to "first".

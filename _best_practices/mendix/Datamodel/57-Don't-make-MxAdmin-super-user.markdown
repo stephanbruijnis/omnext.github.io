@@ -3,16 +3,15 @@
 layout: post
 title:  "Don't make MxAdmin super user"
 categories: Datamodel
-prio: 
+prio:
 rulenumber: 57
-rulename: 
-ruleset: 
+rulename:
+ruleset:
 
 ---
 
 **Why**
-Geef nooit de MxAdmin rol zomaar volledige rechten op het datamodel / de data.
-
-![57.png]({{ site.url }}/assets/57.png)
+Do not expose the MxAdmin user/role to the whole datamodel.
 
 **How to fix**
+Configure a userrole with only the needed access to entities.
