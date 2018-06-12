@@ -4,16 +4,16 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <div class="post-title" itemprop="name headline" style="display: inline-flex;"><a class="post-link" href="{{ page.url | relative_url }}">{{ page.rulenumber | escape }}. {{ page.title | escape }}</a>&nbsp;&nbsp;&nbsp;<a class="icon icon--github" href="https://github.com/Omnext/omnext.github.io/blob/master/{{ page.path | escape }}">{% include icon-github.svg %}</a></div>
+    <div class="post-title" itemprop="name headline" style="display: inline-flex;"><a class="post-link" href="{{ page.url | relative_url }}">{{ page.rulenumber | escape_once }}. {{ page.title | escape_once  }}</a>&nbsp;&nbsp;&nbsp;<a class="icon icon--github" href="https://github.com/Omnext/omnext.github.io/blob/master/{{ page.path | escape_once }}">{% include icon-github.svg %}</a></div>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
   
-  <h6>Domain: {{ page.categories | escape }} | Priority: {{ page.prio | escape }}</h6>
-  <h6>Rulename: {{ page.rulename | escape }}</h6>
-  <h6>Ruleset: {{ page.ruleset | escape }}</h6>
-  <h6>Contribute: <a href="https://github.com/Omnext/omnext.github.io/blob/master/{{ page.path | escape }}">https://github.com/Omnext/omnext.github.io/blob/master/{{ page.path | escape }}</a></h6>
+  <h6>Domain: {{ page.categories | escape_once }} | Priority: {{ page.prio | escape_once }}</h6>
+  <h6>Rulename: {{ page.rulename | escape_once }}</h6>
+  <h6>Ruleset: {{ page.ruleset | escape_once }}</h6>
+  <h6>Contribute: <a href="https://github.com/Omnext/omnext.github.io/blob/master/{{ page.path | escape_once }}">https://github.com/Omnext/omnext.github.io/blob/master/{{ page.path | escape_once }}</a></h6>
   
 </article>
