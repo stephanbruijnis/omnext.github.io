@@ -18,12 +18,12 @@ The different options are a Fit Test or a Stay Fit program with several Fit test
 
 Want to know how fit is your Mendix application? Whether you’re ready for the future and whether your software is safe? Our solution is our source code analysis: the Omnext Fit Test. We implement and the results remain available for one year. You can also opt for the Fit Test Plus, you get additional independent expert review by one of our specialists. We measure the different areas: Maintainability, Safety, Performance and Conventions. All based on Standards & Guidelines which have been drawn up by the most experienced Mendix developers. Automatic and integrated in the source code analysis.
 
-##Stay Fit Program
+## Stay Fit Program
 
 The added value of software testing is hidden in the continuous measurement and improvement. A single test does give you insights, reusable test gives comparison. The right basis for continuous improvement. Stay Fit program, like the one-time source code analysis: Omnext Fit Test, built entirely on the basis of Standards & Guidelines and your own business rules. We measure what is standard, but also some specific to your situation. This in order to achieve relevant and objective results that you and your team can get to work. Optionally you can purchase a Stay Fit Plus program in which an independent expert review shall be attached to one of our experts four times a year.
 
 
-##Specifications
+## Specifications
 
 The OMNEXT STAY FIT Program for Mendix:
 - Fully automated testing of dozens of Best Practices (Standards & Guidelines) for the Mendix MDD.
