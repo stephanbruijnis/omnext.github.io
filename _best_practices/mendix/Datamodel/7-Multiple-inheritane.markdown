@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "Multiple inheritane"
+title:  "Multiple inheritance"
 categories: Datamodel
 prio: 3
 rulenumber: 7
@@ -16,4 +16,4 @@ When an entity inherits from an object that inherits itself from another entity.
 ![7.png]({{ site.url }}/assets/7.png)
 
 **How to fix**
-Refer with a one to one assocation to a seperate entity.
+Refer with a one to one assocation to a separate entity.
